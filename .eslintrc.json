@@ -1,0 +1,23 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": ["airbnb-base", "plugin:prettier/recommended"],
+  "plugins": ["prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "no-undef": "off",
+    "import/order": "off",
+    "no-useless-return": "off",
+    "no-restricted-syntax": "off",
+    "radix": "off",
+    "no-console": "off",
+    "func-names": "off",
+    "global-require": "off",
+    "one-var": "off",
+    "no-underscore-dangle": "off",
+    "consistent-return": "off"
+  }
+}
